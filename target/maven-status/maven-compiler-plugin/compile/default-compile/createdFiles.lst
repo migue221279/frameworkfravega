@@ -1,0 +1,8 @@
+api\FravegaApi.class
+util\SharedDriver$1.class
+api\BaseApi.class
+util\PicoDependencyInjector.class
+pageobjects\FravegaPage.class
+util\SharedDriver.class
+pageobjects\BasePage$1.class
+pageobjects\BasePage.class
