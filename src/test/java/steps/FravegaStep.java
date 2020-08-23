@@ -1,6 +1,4 @@
 package steps;
-
-
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -31,13 +29,13 @@ public class FravegaStep {
         fravegaPage.clickFravegaSearchBtn();
      }
 
-    @And("^Se filtra por \"([^\"]*)\" en la subcategoria$")
-    public void FilterSubCategoria(String subCategoria) throws Throwable {
+    @And("^Se filtra por \"([^\"]*)\" en la subcategoria en la sección izquierda de la página$")
+    public void filterSubCategoria(String subCategoria) throws Throwable {
         fravegaPage.clickLinkHeladeras(subCategoria);
 
     }
-    @And("^Se filtra por \"([^\"]*)\" en marca$")
-    public void FilterCheckMarca(String checkMarca) throws Throwable {
+    @And("^Se filtra por \"([^\"]*)\" en marca en la sección izquierda de la página$")
+    public void filterCheckMarca(String checkMarca) throws Throwable {
         fravegaPage.clickLinkVerTodas();
         fravegaPage.focoEnModalBusqueda();
         fravegaPage.clickcheckboxSamsung(checkMarca);
@@ -55,38 +53,7 @@ public class FravegaStep {
 
     }
     @Then("^Verifica en el breadcrumb de la página se visualize \"([^\"]*)\"$")
-    public void VerificaBreadcrumbPaginaVisualize(String breadcrumb) {
+    public void verificaBreadcrumbPaginaVisualize(String breadcrumb) {
         Assert.assertTrue(fravegaPage.verifyBreadcrumbExist(breadcrumb), " - No contiene en el BREADCRUMB esperaba: "+breadcrumb);
     }
-
 }
-
-
-/*
-  @Test
-  Scenario: 1 - Cada uno de los elementos contenga "samsung" en su title
-    Given Se ingresa la home de Frávega
-    When Se ingresa en el campo busqueda la palabra "Heladera"
-    And Hace clic en el botón búsqueda
-    And Se filtra por "Heladeras" en la subcategoria
-    And Se filtra por "Samsung" en marca
-    Then Verifica que cada uno de los elementos contenga "Samsung" en su title
-
-  @Test
-  Scenario: 2 - La cantidad de elementos de la lista coincida con los resultados mostrando por el frontend.
-    Given Se ingresa la home de Frávega
-    When Se ingresa en el campo busqueda la palabra "Heladera"
-    And Hace clic en el botón búsqueda
-    And Se filtra por "Heladeras" en la subcategoria
-    And Se filtra por "Samsung" en marca
-    Then Verifica la cantidad de elementos de la lista coincida con los resultados mostrando por el frontend
-
-  @Test
-     # breadcrumb Reemplazar --->  Frávega Por  Heladeras con Frezzer
-  Scenario: 3 - En el breadcrumb de la página (atributo name="breadcrumb") se visualize "Heladeras con Frezzer"
-    Given Se ingresa la home de Frávega
-    When Se ingresa en el campo busqueda la palabra "Heladera"
-    And Hace clic en el botón búsqueda
-    And Se filtra por "Heladeras" en la subcategoria
-    And Se filtra por "Samsung" en marca
-    Then Verifica en el breadcrumb de la página se visualize "Frávega"*/
