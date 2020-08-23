@@ -1,8 +1,6 @@
 Feature: fravega Test
   This is example of using Cucumber-JVM with TestNG and Selenium
   # Para ver el reporte tenes que poner por consola esta direccion
-  # allure serve C:\Users\pitt\IdeaProjects\FrameworkFravegaAutomation\allure-results
-  # allure serve C:\Users\{User}\IdeaProjects\FrameworkFravegaAutomation\allure-results
   # allure serve C:\Workspace\frameworkfravega\allure-results
 
   @Test
