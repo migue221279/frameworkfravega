@@ -1,21 +1,16 @@
 package steps;
-import api.Molde.BreweriesModel;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import api.FravegaApi;
-import io.restassured.response.Response;
 import org.testng.Assert;
 import util.JsonHelper;
 
-import static util.JsonHelper.guardarJson;
-import static util.JsonHelper.leerJson;
 
 import java.io.IOException;
 
 public class ApiStep {
     private final FravegaApi fravegaApi;
-    //private BreweriesModel breweriesModel;
 
     public ApiStep(FravegaApi fravegaApi){
         this.fravegaApi = fravegaApi;

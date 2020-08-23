@@ -9,6 +9,7 @@
         <module name="FrameworkFravegaAutomation" />
         <module name="com.fravega" />
         <module name="FrameworkFravegaEditado" />
+        <module name="frameworkfravega" />
       </profile>
     </annotationProcessing>
   </component>

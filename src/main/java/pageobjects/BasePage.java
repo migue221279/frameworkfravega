@@ -1,5 +1,4 @@
 package pageobjects;
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,8 +6,6 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.awt.*;
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
@@ -34,8 +31,7 @@ public abstract class BasePage {
     public abstract boolean isAt();
 
     public void waitForLoadPage(WebDriver driver) {
-        ExpectedCondition<Boolean> pageLoadCondition = new
-                ExpectedCondition<Boolean>() {
+        ExpectedCondition<Boolean> pageLoadCondition = new ExpectedCondition<Boolean>() {
                     public Boolean apply(WebDriver driver) {
                         return ((JavascriptExecutor)driver).executeScript("return document.readyState").equals("complete");
                     }
@@ -48,8 +44,5 @@ public abstract class BasePage {
         WebDriverWait wait = new WebDriverWait(this.driver, 30);
         wait.until(ExpectedConditions.elementToBeClickable(locador));
     }
-    public void waitForElementVisibility(By locador) {
-        WebDriverWait wait = new WebDriverWait(this.driver, 30);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(locador));
-    }
+
 }
