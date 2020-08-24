@@ -12,7 +12,8 @@ import org.testng.annotations.Test;
         plugin = {"pretty","json:target/report/cucumber2.json"},
         strict = true,
         features = {"src/test/resources/features"},
-        glue = {"steps", "util"}
+        glue = {"steps", "util"},
+        tags={"@Smoke"}
 )
 
 public class testNGCucumberRunner extends TestBase {

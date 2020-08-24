@@ -3,7 +3,8 @@ Feature: fravega Test
   # Para ver el reporte tenes que poner por consola esta direccion
   # allure serve C:\Workspace\frameworkfravega\allure-results
 
-  @Test
+  # con s  minunsula en "samsung" no  es lo mostrado en el FrontEnd
+  @Smoke
   Scenario: 1 - Cada uno de los elementos contenga "samsung" en su title
     Given Se ingresa la home de Frávega
     When Se ingresa en el campo busqueda la palabra "Heladera"

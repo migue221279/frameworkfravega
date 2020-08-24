@@ -18,12 +18,12 @@ public class ApiStep {
 
     @Given("^Obtener una lista de cervecerías que contengan el texto \"([^\"]*)\" en su nombre$")
     public void listaDeCervecerias(String texto) {
-        fravegaApi.searchEmpoint();
+        fravegaApi.searchEmpoint(texto);
     }
 
     @When("^De la lista de resultados del punto 1, tomar aquellos que contengan en la key 'name', el valor \"([^\"]*)\"$")
     public void resultadosContenganEnLakeyName(String valor) throws IOException {
-        fravegaApi.listaDeCerveceriasContengan();
+        fravegaApi.listaDeCerveceriasContengan(valor);
     }
 
     @When("^A través del siguiente servicio, obtener el detalle de cada cervecería de la lista del punto 2 y tomar solo el que contenga 'state' = \"([^\"]*)\"$")

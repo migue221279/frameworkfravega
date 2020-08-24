@@ -9,8 +9,8 @@ import java.util.List;
 
 public class FravegaApi extends BaseApi {
 
-    public void searchEmpoint(){
-        Response response = doGetRequest("https://api.openbrewerydb.org/breweries/autocomplete?query=lagunitas");
+    public void searchEmpoint(String texto){
+        Response response = doGetRequest("https://api.openbrewerydb.org/breweries/autocomplete?query="+texto);
         List<String> jsonResponseName = response.jsonPath().getList("name");
         for (String s : jsonResponseName) {
             System.out.println(s);
@@ -18,18 +18,18 @@ public class FravegaApi extends BaseApi {
 
     }
 
-    public void listaDeCerveceriasContengan() throws IOException {
+    public void listaDeCerveceriasContengan(String valor) throws IOException {
         Response response = doGetRequest("https://api.openbrewerydb.org/breweries/autocomplete?query=lagunitas");
         List<String> jsonResponseName = response.jsonPath().getList("name");
         List<String> jsonResponseID = response.jsonPath().getList("id");
           for(int i=0;i<jsonResponseName.size();i++){
-            if(jsonResponseName.get(i).equals("Lagunitas Brewing Co")){
+            if(jsonResponseName.get(i).equals(valor)){
                 System.out.println(jsonResponseName.get(i));
                 System.out.println("https://api.openbrewerydb.org/breweries/"+jsonResponseID.get(i));
                 }
         }
     }
-    public void contengaState(String id) throws IOException {
+    public void contengaState(String valor) throws IOException {
         Response response = doGetRequest("https://api.openbrewerydb.org/breweries/autocomplete?query=lagunitas");
         List<String> jsonResponseName = response.jsonPath().getList("name");
         List<String> jsonResponseID = response.jsonPath().getList("id");
@@ -39,7 +39,7 @@ public class FravegaApi extends BaseApi {
                 Response response1 = PathParamExample(jsonResponseID.get(i));
                 BreweriesModel breweriesModel = response1.as(BreweriesModel.class);
                 String State = breweriesModel.getState();
-                if(State.contains("California")) {
+                if(State.contains(valor)) {
                     System.out.println("Id received from Response " + State);
                 }
             }
