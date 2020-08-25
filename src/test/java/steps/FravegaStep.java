@@ -49,7 +49,7 @@ public class FravegaStep {
 
     @Then("^Verifica la cantidad de elementos de la lista coincida con los resultados mostrando por el frontend$")
     public void verificaCantidadElementosConcidaConResultados() {
-        Assert.assertTrue(fravegaPage.verifyQuantityResult(), " - Cantidad de elementos no concide ConResultados");
+        Assert.assertTrue(fravegaPage.verifyQuantityResult(), " - Cantidad de elementos no coincide ConResultados");
 
     }
     @Then("^Verifica en el breadcrumb de la página se visualize \"([^\"]*)\"$")

@@ -56,6 +56,7 @@ public class FravegaApi extends BaseApi {
             if(jsonResponseName.get(i).equals("Lagunitas Brewing Co")){
                 Response response1 = PathParamExample(jsonResponseID.get(i));
                 BreweriesModel breweriesModel = response1.as(BreweriesModel.class);
+
                 String Id = (breweriesModel.getId()).toString();
                 String Name = breweriesModel.getName();
                 String Street = breweriesModel.getStreet();

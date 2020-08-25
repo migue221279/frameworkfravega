@@ -9,10 +9,8 @@ import java.io.IOException;
 public class JsonHelper {
     private static final String NOMBRE_ARCHIVO = "ModeloDato";
     public static  BreweriesModel breweriesModel ;
-   // public static  ObjectMapper mapper ;
 
     // Writing to a file
-    // String chromePath = System.getProperty("user.dir")+"/src/test/resources/Test.j";
     public static void guardarJson(BreweriesModel dato) throws IOException {
         File file = new File(System.getProperty("user.dir") + File.separator + "src\\test\\resources\\jsons\\response\\" + NOMBRE_ARCHIVO + ".json");
        ObjectMapper mapper = new ObjectMapper();
