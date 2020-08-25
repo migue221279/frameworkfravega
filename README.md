@@ -46,6 +46,7 @@ https://drive.google.com/drive/folders/1YbSpmYn7Nw5IGPjOT3rBmlykapi_3FVZ?usp=sha
 1 Descargar y la carpeta colocarla en C:\Program Files\
 2 en el Path de la variable de entorno agregar C:\Program Files\allure-2.13.3\bin
 
+****** Se corre el framework con la testng.xml *********
 
 Luego de Correr la prueba pegar esta ruta en la consola CMD
 
