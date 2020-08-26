@@ -58,6 +58,7 @@ y copiar este comando en la consola de git:
 Reporte: Allure
 allure-commandline-2.13.3.zip
 https://drive.google.com/drive/folders/1YbSpmYn7Nw5IGPjOT3rBmlykapi_3FVZ?usp=sharing
+
 1 Descargar y la carpeta colocarla en C:\Program Files\
 2 en el Path de la variable de entorno agregar C:\Program Files\allure-2.13.3\bin
 
