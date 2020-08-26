@@ -62,7 +62,7 @@ https://drive.google.com/drive/folders/1YbSpmYn7Nw5IGPjOT3rBmlykapi_3FVZ?usp=sha
 1 Descargar y descomprimir la carpeta en C:\Program Files\
 2 en el Path de la variable de entorno agregar C:\Program Files\allure-2.13.3\bin
 
-****** El proyecto se corrre desde la  test Suite testng.xml haciendo clic derecho run as Testng suite *********
+****** El proyecto se correr desde la  test Suite testng.xml haciendo clic derecho run as Testng suite *********
 
 Luego de Correr la prueba pegar esta ruta en la consola CMD
 
