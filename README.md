@@ -26,7 +26,7 @@ Pluning del IntelliJ IDEA
 - Gherkin
 - Cucumber Scenarios Indexer
 - Database Navigator
-
+**************************************************************
 - IDE intellij (la Version openSource)
 - java 8
 - Patrón "Page Object"
