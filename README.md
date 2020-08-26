@@ -22,10 +22,10 @@ https://www.jetbrains.com/es-es/idea/download/#section=windows
 Community
 
 Pluning del IntelliJ IDEA 
-*Cucumber for Java
-*Gherkin
-*Cucumber Scenarios Indexer
-*Database Navigator
+- Cucumber for Java
+- Gherkin
+- Cucumber Scenarios Indexer
+- Database Navigator
 
 - IDE intellij (la Version openSource)
 - java 8
