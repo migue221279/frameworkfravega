@@ -9,7 +9,7 @@ En el assert: En el Punto 6.
 *(Test Frontend)*
 - Cada uno de los elementos que contenga "samsung" en su title.
 la palabra samsung arranca con la "s" minuscula y todos los elementos en 
-el titulo contiene la primer latra inicial mayuscula "Samsung" con "S" mayuscula.
+el titulo contiene la primer letra inicial mayuscula "Samsung" con "S" mayuscula.
 por ejemplo: Heladera No Frost Inverter Samsung RT38K5932SL 396Lt
 
 - En el breadcrumb de la página (atributo name="breadcrumb") se visualize "Heladeras con Frezzer"
