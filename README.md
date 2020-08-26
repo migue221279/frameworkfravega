@@ -51,7 +51,7 @@ Workspace en C:\
 
 2 Ir a la ruta C:\Workspace
 hacer clic derecho y clic en Git Bash Here
-y copiar este comando:
+y copiar este comando en la consola de git:
 
         git clone https://github.com/rorymer1989/frameworkfravega.git
 
