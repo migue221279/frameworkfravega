@@ -46,10 +46,10 @@ Plugins del IntelliJ IDEA
 
 Repositorio Github: https://github.com/rorymer1989/frameworkfravega.git
 
-clonar el repsitorio en esta ruta
+clonar el repositorio en esta ruta
 C:\Workspace\
 Con:
- git clone https://github.com/rorymer1989/frameworkfravega.git
+        git clone https://github.com/rorymer1989/frameworkfravega.git
 
 Reporte: Allure
 allure-commandline-2.13.3.zip
