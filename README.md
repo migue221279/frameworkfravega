@@ -6,7 +6,7 @@ Aclaraciones:
 El documento Challenge QA Automation
 
 En el assert: Test Frontend
-1 - Cada uno de los elementos contenga "samsung" en su title.
+1 - Cada uno de los elementos que contenga "samsung" en su title.
 la palabra samsung arranca con la "s" minuscula y todos los elementos en 
 el titulo contiene "Samsung" con "S" mayuscula. por ejemplo:
  * Heladera No Frost Inverter Samsung RT38K5932SL 396Lt
