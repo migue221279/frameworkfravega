@@ -46,9 +46,13 @@ Plugins del IntelliJ IDEA
 
 Repositorio Github: https://github.com/rorymer1989/frameworkfravega.git
 
-clonar el repositorio en esta ruta
-C:\Workspace\
-Con:
+1 Crear una carpeta llamada 
+Workspace en C:\
+
+2 Ir a la ruta C:\Workspace
+hacer clic derecho y clic en Git Bash Here
+y copiar este comando:
+
         git clone https://github.com/rorymer1989/frameworkfravega.git
 
 Reporte: Allure
