@@ -3,7 +3,7 @@ Framework de FrontEnd  y BackEnd para pruebas
 
 
 Aclaraciones:
-El el documento Challenge QA Automation
+El documento Challenge QA Automation
 
 En el assert: Test Frontend
 1 - Cada uno de los elementos contenga "samsung" en su title.
