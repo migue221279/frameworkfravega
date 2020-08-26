@@ -6,7 +6,7 @@ Aclaraciones:
 Para el documento Challenge QA Automation
 
 En el assert: En el Punto 6.
-*Test Frontend*
+*(Test Frontend)*
 - Cada uno de los elementos que contenga "samsung" en su title.
 la palabra samsung arranca con la "s" minuscula y todos los elementos en 
 el titulo contiene la primer latra inicial mayuscula "Samsung" con "S" mayuscula.
