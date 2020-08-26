@@ -19,9 +19,9 @@ el titulo contiene "Samsung" con "S" mayuscula. por ejemplo:
 El framework esta armado con:
 
 https://www.jetbrains.com/es-es/idea/download/#section=windows
-Community
+- Descargar la version Community
 
-Pluning del IntelliJ IDEA 
+Plugins del IntelliJ IDEA 
 - Cucumber for Java
 - Gherkin
 - Cucumber Scenarios Indexer
