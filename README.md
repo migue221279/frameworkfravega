@@ -17,6 +17,16 @@ el titulo contiene "Samsung" con "S" mayuscula. por ejemplo:
 
 
 El framework esta armado con:
+
+https://www.jetbrains.com/es-es/idea/download/#section=windows
+Community
+
+Pluning del IntelliJ IDEA 
+*Cucumber for Java
+*Gherkin
+*Cucumber Scenarios Indexer
+*Database Navigator
+
 - IDE intellij (la Version openSource)
 - java 8
 - Patrón "Page Object"
